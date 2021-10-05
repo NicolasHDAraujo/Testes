@@ -3,7 +3,7 @@
  * Modulos de alto nivel, não devem depender dos de baixo nivel, ambos devem depender de abstrações
  */
 
-import { FiftyPercentDiscount } from './classes/dicount';
+import { FiftyPercentDiscount } from './classes/discount';
 import { Product } from './classes/product';
 import { Message } from './services/message';
 import { Persistency } from './services/persistency';
